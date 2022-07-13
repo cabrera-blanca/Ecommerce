@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--CSS-->
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/products.css">
+    <link rel="stylesheet" href="../style/addprod.css">
+    <title>Productos | Ecommerce</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <section class="nav">
+            <nav class="menu-nav container">
+                <figure class="logo-box">
+                    <a href="../index.html">
+                    <img class="logo-img" src="../media/Logo.png" alt="alurageek"></a>
+                </figure>
+                <!--Search-->
+                <div class="search-box">
+                    <input type="search" class="search-input" placeholder="¿Qué deseas buscar?">
+                    <i class='bx bx-search-alt'></i>
+                </div>
+                <!--Login-->
+                <div class="cart-login-box">
+                    <i class='bx bx-shopping-bag cart-logo'></i>
+                    <a class="menu-button" href="login.html">Ingresar <i class='bx bx-user user'></i></a>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <!--MAIN-->
+    <main>
+
+        <p class="tit-form">Agregar nuevo Producto</p>
+        <form class="form-prod" action="">
+            <input class="form-input " type="url" placeholder="URL de la imagen">
+            <input class="form-input" type="text" placeholder="Categoría">
+            <input class="form-input" type="text" placeholder="Nombre del producto">
+            <input class="form-input" type="number" placeholder="Precio">
+            <input class="form-input" type="text" placeholder="Descripción del producto">
+            <button class="form-button">Añadir artículo</button>
+        </form>
+    </main>
+
+    <!--INFO-->
+    <div id="info">
+        <div class="logo">
+            <img src="../media/Logo.png" alt="logoAlura">
+        </div>
+
+        <ul class="info-items">
+            <li><a href="">Quienes somos</a></li>
+            <li><a href="">Programa de fidelidad</a></li>
+            <li><a href="">Politica de privacidad</a></li>
+            <li><a href="">Nuestras tiendas</a></li>
+            <li><a href="">Quiero ser franquiciado</a></li>
+            <li><a href="">Anuncie aqui</a></li>
+        </ul>
+        
+        <div id="form">
+            <p>Hable con nosotros</p>
+            <form class="info-form" action="">
+                <input class="form-input" type="text" placeholder="Nombre">
+                <input class="form-input" type="text" placeholder="Escribe un mensaje">
+                <button class="form-submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </div>
+    
+    <!--FOOTER-->
+    <footer>
+        <p>&copy;Developed by Lucia Cabrera</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@500&display=swap');
+
+.main{
+    width: 1200px;
+    height: max-content;
+}
+
+.prod{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem auto ;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content:center;
+}
+
+.tit-prod{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.tit-prod h2{
+    font-family: 'Raleway';
+    font-size: 2.4rem;
+
+}
+
+.tit-prod button{
+    padding: .5rem 0.6rem;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: none;
+    border-radius: .2rem;
+    outline: none;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+#product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    height: fit-content;
+    justify-content: space-around;
+}
