@@ -1,29 +1,28 @@
 main{
     width: 100%;
-    height: 550px;
+    height: 100%;
 }
 
 .tit-form{
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Raleway';
-    margin: 3rem auto 1rem auto;
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 3rem;
 }
 
 .form-prod{
     display: flex;
     flex-direction: column;
-    margin:1rem auto;
     height: 500px;
     justify-content: center;
     align-content: center;
 }
 
 .form-input{
-    margin: 6px auto;
+    margin: 3px auto;
     width: 20rem;
     font-weight: 200;
     color: var(--texto-light);
@@ -48,4 +47,15 @@ button{
     text-align: center;
     cursor: pointer;
     margin: 1rem auto;
+}
+
+footer{
+    height: 2rem;
+    position: static;
+    top: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--white);
 }

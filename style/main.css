@@ -20,12 +20,17 @@
 body{
     background-color: var(--color-white);
     font-family: 'Poppins', sans-serif;
+   
 }
 
 .container{
     width: 90%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
+}
+
+button{
+    cursor: pointer;
 }
 
 /*Nav*/
@@ -177,10 +182,9 @@ body{
     flex-direction: column;
     margin: 5rem auto;
     justify-content: space-evenly   ;
+    
 
 }
-
-
 
 #starwars-container{
     width: 100%;
@@ -189,7 +193,6 @@ body{
     justify-content:center;
     align-content:center;
 }
-
 
 #consolas-container{
     width: 100%;
@@ -200,30 +203,33 @@ body{
     margin:4rem 0;
 }
 
-
 #diversos-container{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
     align-content:center;
+
 }
 
 #titulo{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     margin: 1rem 1rem 2rem 1rem;
     text-align:center;
     border-bottom: 2px solid var(--color-grey);
 }
 
+
+
 #titulo a {
    text-decoration: none;
    color:#1B65C5;
    cursor: pointer;
+   text-align:center;
 }
-
 
 .titulo-secc{
     font-size: 1.9rem;
@@ -235,7 +241,6 @@ body{
     font-size: 1.2rem;
     font-family: 'Raleway', cursive;
 }
-
 
 .vertodo-btn i{
     color: var(--color-blue);
@@ -264,6 +269,8 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
+
+/*Info Footer*/
 
 #info{
     width: 100%;
