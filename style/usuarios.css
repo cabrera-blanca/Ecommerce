@@ -1,0 +1,105 @@
+:root {     
+    --font-size-table-header: 1.3rem;
+    
+    --primary-color: #0071ea;
+    --secundary-color: #d6eaff;
+    --contrast-dark-color: #4d4d4d;
+    --contrast-ligth-color: #fff;
+    --info-color: #df2525;
+    --sucess-color: #047900;
+    --transparency-color: #4d4d4d33;
+
+    --color-white: #F5F5FE;
+    --color-grey: #CCCCCC;
+    --color-light-blue: #E3EEFD;
+    --color-blue: #2A7AE4;
+    --color-dark-blue: #1B65C5;
+    --color-red: #e42a2a;
+    --texto-light: #4f4d4d;
+  
+    --shadow: 0 5px 10px #55a6ff38;
+  }
+  
+main{
+    height: 700px;
+    height: max-content;
+}
+  
+
+.table {
+    width: 50%;
+    max-width: max-content;
+    background-color: var(--contrast-ligth-color);
+    border-radius: 10px;
+    margin: 5rem auto;
+    box-shadow: var(--shadow);
+    border-collapse: initial;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .table thead {
+    font-size: var(--font-size-table-header);
+  }
+  
+  .table th {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 20%;
+    text-align: center;
+    border-bottom: 1px solid var(--secundary-color);
+  }
+  
+  .table td {
+    text-align: center;
+    padding: 1rem 3rem;
+  }
+  
+  .table__button-control {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  
+  .table__button-control li:first-of-type {
+    margin-right: 2.25rem;
+  }
+  
+ 
+  
+  .button {
+    display: block;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 20rem;
+    padding: 1.125rem;
+    box-sizing: border-box;
+    color: var(--contrast-ligth-color);
+    font-size: var(--font-size-button);
+    align-self: center;
+    text-align: center;
+  }
+  
+  .simple-button {
+    border: none;
+    background-color: unset;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .simple-button--add {
+    color: var(--color-dark-blue);
+  }
+  
+  .simple-button--delete {
+    color: var(--info-color);
+  }
+  
+  .simple-button--edit {
+    color: var(--sucess-color);
+  }
+ 

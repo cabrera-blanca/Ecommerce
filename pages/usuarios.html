@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../style/main.css">
-    <link rel="stylesheet" href="../style/login.css">
-    <title>Registrarme | Ecommerce</title>
+    <link rel="stylesheet" href="../style/usuarios.css">
+    <title>Usuarios | Ecommerce</title>
 </head>
 <body>
      <!--HEADER-->
@@ -30,14 +30,24 @@
 
     <!--MAIN-->
     <main>
-        <div id="form-login" class="form-reg">
-            <p class="title-form">Registrate</p>
-            <form class="info-login" action="" data-form>
-                <input class="form-input" type="text" required placeholder="Nombre" data-nombre>
-                <input class="form-input" type="text" required placeholder="Email" data-mail>
-                <!-- <input class="form-input" type="password" required placeholder="Contraseña"> -->
-                <button onclick="" class="form-submit">Registrarme</button>
-            </form>
+        <div id="tabla-usuarios">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="table__column--p">Nombre</th>
+                <th class="table__column--g">Email</th>
+                <th class="table__column--m ">
+                  <a
+                    href="./registrar_cliente.html"
+                    class="simple-button simple-button--add"
+                    >Nuevo Usuario</a
+                  >
+                </th>
+              </tr>
+            </thead>
+            <tbody id="tabla" data-table>
+            </tbody>
+          </table>
         </div>
         
     </main>
@@ -72,8 +82,6 @@
         <p>&copy;Developed by Lucia Cabrera</p>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="module" src="../js/services/registro-controller.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="../js/services/user-controller.js"></script>
 </body>
 </html>
