@@ -11,5 +11,5 @@ form.addEventListener("submit", (event) => {
     userServices
     .crearUser(nombre,mail)
     .catch((Error) => console.log(Error));
-});
+}); 
 
