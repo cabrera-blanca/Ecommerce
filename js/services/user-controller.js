@@ -30,8 +30,11 @@ const crearLinea = (nombre,mail,id) => {
 
     btn.addEventListener("click", () => {
         const id = btn.id
-        userServices.eliminarUser(id).catch((error) => console.log(error))
-    })
+        userServices.eliminarUser(id).then((response) =>{
+            console.log(response);
+        })
+        .catch((error) => console.log(error))
+    });
 
     return linea
 
