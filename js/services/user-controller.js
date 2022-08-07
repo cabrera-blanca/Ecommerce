@@ -28,11 +28,9 @@ const crearLinea = (nombre,mail,id) => {
     linea.innerHTML = content;
     const btn = document.querySelector("button");
 
-    btn.addEventListener("click", () => {
+    btn.addEventListener('click', () => {
         const id = btn.id
-        userServices.eliminarUser(id).then((response) =>{
-            console.log(response);
-        })
+        userServices.eliminarUser(id).then(response)
         .catch((error) => console.log(error))
     });
 

@@ -34,9 +34,9 @@
         <div id="form-login">
             <p class="title-form">Iniciar Sesión</p>
             <form class="info-login" action="">
-                <input class="form-input" type="text" required placeholder="Escriba su correo electronico">
-                <input class="form-input" type="text" required placeholder="Escriba su contraseña">
-                <button class="form-submit">Entrar</button>
+                <input id="email" class="form-input" type="text" required placeholder="Escriba su correo electronico">
+                <input id="password" class="form-input" type="password" required placeholder="Escriba su contraseña">
+                <button id="botonlogin" type="submit" class="form-submit">Entrar</button>
             </form>
 
             <p id="alert">Si no tienes una cuenta </p><p><a href="registrar.html" class="register"> registrate</a></p>
@@ -74,6 +74,9 @@
     <footer>
         <p>&copy;Developed by Lucia Cabrera</p>
     </footer>
+    
+    <script type="module" src="../js/login.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
 
